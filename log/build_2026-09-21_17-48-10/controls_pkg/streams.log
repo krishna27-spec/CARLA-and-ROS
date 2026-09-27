@@ -1,0 +1,29 @@
+[0.709s] Invoking command in '/home/srikrishna/motion_planning_project/ros2_ws/build/controls_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/srikrishna/motion_planning_project/ros2_ws/build/controls_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/srikrishna/motion_planning_project/ros2_ws/.venv/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/srikrishna/motion_planning_project/ros2_ws/build/controls_pkg/build --no-deps symlink_data
+[0.916s] running develop
+[1.039s] running egg_info
+[1.051s] creating controls_pkg.egg-info
+[1.052s] writing controls_pkg.egg-info/PKG-INFO
+[1.052s] writing dependency_links to controls_pkg.egg-info/dependency_links.txt
+[1.052s] writing entry points to controls_pkg.egg-info/entry_points.txt
+[1.052s] writing requirements to controls_pkg.egg-info/requires.txt
+[1.053s] writing top-level names to controls_pkg.egg-info/top_level.txt
+[1.053s] writing manifest file 'controls_pkg.egg-info/SOURCES.txt'
+[1.077s] reading manifest file 'controls_pkg.egg-info/SOURCES.txt'
+[1.078s] writing manifest file 'controls_pkg.egg-info/SOURCES.txt'
+[1.090s] running build_ext
+[1.090s] Creating /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/lib/python3.12/site-packages/controls-pkg.egg-link (link to .)
+[1.091s] Installing path_error_logger script to /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/lib/controls_pkg
+[1.091s] Installing path_publisher script to /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/lib/controls_pkg
+[1.091s] Installing pid_controller script to /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/lib/controls_pkg
+[1.091s] Installing pure_pursuit_controller script to /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/lib/controls_pkg
+[1.091s] Installing rl_controller script to /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/lib/controls_pkg
+[1.091s] Installing stanley_controller script to /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/lib/controls_pkg
+[1.091s] 
+[1.091s] Installed /home/srikrishna/motion_planning_project/ros2_ws/build/controls_pkg
+[1.092s] running symlink_data
+[1.092s] creating /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/share/ament_index/resource_index/packages
+[1.092s] symbolically linking /home/srikrishna/motion_planning_project/ros2_ws/build/controls_pkg/resource/controls_pkg -> /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/share/ament_index/resource_index/packages
+[1.092s] symbolically linking /home/srikrishna/motion_planning_project/ros2_ws/build/controls_pkg/package.xml -> /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/share/controls_pkg
+[1.092s] creating /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/share/controls_pkg/models
+[1.093s] symbolically linking /home/srikrishna/motion_planning_project/ros2_ws/build/controls_pkg/controls_pkg/trained_policy.pt -> /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/share/controls_pkg/models
+[1.115s] Invoked command in '/home/srikrishna/motion_planning_project/ros2_ws/build/controls_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/srikrishna/motion_planning_project/ros2_ws/build/controls_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /home/srikrishna/motion_planning_project/ros2_ws/.venv/bin/python -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/srikrishna/motion_planning_project/ros2_ws/build/controls_pkg/build --no-deps symlink_data

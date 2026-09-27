@@ -1,0 +1,22 @@
+running develop
+running egg_info
+writing controls_pkg.egg-info/PKG-INFO
+writing dependency_links to controls_pkg.egg-info/dependency_links.txt
+writing entry points to controls_pkg.egg-info/entry_points.txt
+writing requirements to controls_pkg.egg-info/requires.txt
+writing top-level names to controls_pkg.egg-info/top_level.txt
+reading manifest file 'controls_pkg.egg-info/SOURCES.txt'
+writing manifest file 'controls_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/lib/python3.12/site-packages/controls-pkg.egg-link (link to .)
+Installing path_error_logger script to /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/lib/controls_pkg
+Installing path_publisher script to /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/lib/controls_pkg
+Installing pid_controller script to /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/lib/controls_pkg
+Installing pure_pursuit_controller script to /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/lib/controls_pkg
+Installing rl_controller script to /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/lib/controls_pkg
+Installing stanley_controller script to /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/lib/controls_pkg
+
+Installed /home/srikrishna/motion_planning_project/ros2_ws/build/controls_pkg
+running symlink_data
+symbolically linking /home/srikrishna/motion_planning_project/ros2_ws/build/controls_pkg/resource/controls_pkg -> /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/srikrishna/motion_planning_project/ros2_ws/build/controls_pkg/package.xml -> /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/share/controls_pkg

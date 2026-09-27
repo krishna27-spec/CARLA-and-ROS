@@ -1,0 +1,47 @@
+running egg_info
+creating ../../build/controls_pkg/controls_pkg.egg-info
+writing ../../build/controls_pkg/controls_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/controls_pkg/controls_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/controls_pkg/controls_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/controls_pkg/controls_pkg.egg-info/requires.txt
+writing top-level names to ../../build/controls_pkg/controls_pkg.egg-info/top_level.txt
+writing manifest file '../../build/controls_pkg/controls_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/controls_pkg/controls_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/controls_pkg/controls_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/srikrishna/motion_planning_project/ros2_ws/build/controls_pkg/build
+creating /home/srikrishna/motion_planning_project/ros2_ws/build/controls_pkg/build/lib
+creating /home/srikrishna/motion_planning_project/ros2_ws/build/controls_pkg/build/lib/controls_pkg
+copying controls_pkg/pure_pursuit_controller.py -> /home/srikrishna/motion_planning_project/ros2_ws/build/controls_pkg/build/lib/controls_pkg
+copying controls_pkg/pid_controller.py -> /home/srikrishna/motion_planning_project/ros2_ws/build/controls_pkg/build/lib/controls_pkg
+copying controls_pkg/__init__.py -> /home/srikrishna/motion_planning_project/ros2_ws/build/controls_pkg/build/lib/controls_pkg
+copying controls_pkg/path_publisher.py -> /home/srikrishna/motion_planning_project/ros2_ws/build/controls_pkg/build/lib/controls_pkg
+copying controls_pkg/stanley_controller.py -> /home/srikrishna/motion_planning_project/ros2_ws/build/controls_pkg/build/lib/controls_pkg
+running install
+running install_lib
+creating /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/lib/python3.12/site-packages/controls_pkg
+copying /home/srikrishna/motion_planning_project/ros2_ws/build/controls_pkg/build/lib/controls_pkg/pure_pursuit_controller.py -> /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/lib/python3.12/site-packages/controls_pkg
+copying /home/srikrishna/motion_planning_project/ros2_ws/build/controls_pkg/build/lib/controls_pkg/pid_controller.py -> /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/lib/python3.12/site-packages/controls_pkg
+copying /home/srikrishna/motion_planning_project/ros2_ws/build/controls_pkg/build/lib/controls_pkg/__init__.py -> /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/lib/python3.12/site-packages/controls_pkg
+copying /home/srikrishna/motion_planning_project/ros2_ws/build/controls_pkg/build/lib/controls_pkg/path_publisher.py -> /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/lib/python3.12/site-packages/controls_pkg
+copying /home/srikrishna/motion_planning_project/ros2_ws/build/controls_pkg/build/lib/controls_pkg/stanley_controller.py -> /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/lib/python3.12/site-packages/controls_pkg
+byte-compiling /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/lib/python3.12/site-packages/controls_pkg/pure_pursuit_controller.py to pure_pursuit_controller.cpython-312.pyc
+byte-compiling /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/lib/python3.12/site-packages/controls_pkg/pid_controller.py to pid_controller.cpython-312.pyc
+byte-compiling /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/lib/python3.12/site-packages/controls_pkg/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/lib/python3.12/site-packages/controls_pkg/path_publisher.py to path_publisher.cpython-312.pyc
+byte-compiling /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/lib/python3.12/site-packages/controls_pkg/stanley_controller.py to stanley_controller.cpython-312.pyc
+running install_data
+creating /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/share/ament_index
+creating /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/share/ament_index/resource_index
+creating /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/share/ament_index/resource_index/packages
+copying resource/controls_pkg -> /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/share/controls_pkg
+running install_egg_info
+Copying ../../build/controls_pkg/controls_pkg.egg-info to /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/lib/python3.12/site-packages/controls_pkg-0.0.0-py3.12.egg-info
+running install_scripts
+Installing path_publisher script to /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/lib/controls_pkg
+Installing pid_controller script to /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/lib/controls_pkg
+Installing pure_pursuit_controller script to /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/lib/controls_pkg
+Installing stanley_controller script to /home/srikrishna/motion_planning_project/ros2_ws/install/controls_pkg/lib/controls_pkg
+writing list of installed files to '/home/srikrishna/motion_planning_project/ros2_ws/build/controls_pkg/install.log'

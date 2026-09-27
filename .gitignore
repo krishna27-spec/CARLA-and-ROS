@@ -1,0 +1,17 @@
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# ROS 2 Build & Log Folders
+build/
+install/
+log/
+
+# Compiled Python & IDE files
+__pycache__/
+*.pyc
+*.so
+.vscode/
+.idea/

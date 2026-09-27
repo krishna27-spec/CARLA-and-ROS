@@ -1,0 +1,8 @@
+[console_scripts]
+mpc = controls_pkg.mpc:main
+p_controller = controls_pkg.p_controller:main
+path_error_logger = controls_pkg.path_error_logger:main
+path_publisher = controls_pkg.path_publisher:main
+pure_pursuit_controller = controls_pkg.pure_pursuit_controller:main
+rl_controller = controls_pkg.rl_controller:main
+stanley_controller = controls_pkg.stanley_controller:main

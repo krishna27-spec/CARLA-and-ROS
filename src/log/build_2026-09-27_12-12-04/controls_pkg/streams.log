@@ -1,0 +1,59 @@
+[0.964s] Invoking command in '/home/srikrishna/motion_planning_project/ros2_ws/src/controls_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/srikrishna/motion_planning_project/ros2_ws/src/build/controls_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/srikrishna/motion_planning_project/ros2_ws/src/install/controls_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/controls_pkg build --build-base /home/srikrishna/motion_planning_project/ros2_ws/src/build/controls_pkg/build install --record /home/srikrishna/motion_planning_project/ros2_ws/src/build/controls_pkg/install.log --install-scripts $base/lib/controls_pkg --single-version-externally-managed install_data
+[1.163s] running egg_info
+[1.164s] creating ../build/controls_pkg/controls_pkg.egg-info
+[1.175s] writing ../build/controls_pkg/controls_pkg.egg-info/PKG-INFO
+[1.175s] writing dependency_links to ../build/controls_pkg/controls_pkg.egg-info/dependency_links.txt
+[1.175s] writing entry points to ../build/controls_pkg/controls_pkg.egg-info/entry_points.txt
+[1.176s] writing requirements to ../build/controls_pkg/controls_pkg.egg-info/requires.txt
+[1.176s] writing top-level names to ../build/controls_pkg/controls_pkg.egg-info/top_level.txt
+[1.176s] writing manifest file '../build/controls_pkg/controls_pkg.egg-info/SOURCES.txt'
+[1.202s] reading manifest file '../build/controls_pkg/controls_pkg.egg-info/SOURCES.txt'
+[1.202s] writing manifest file '../build/controls_pkg/controls_pkg.egg-info/SOURCES.txt'
+[1.202s] running build
+[1.202s] running build_py
+[1.202s] creating /home/srikrishna/motion_planning_project/ros2_ws/src/build/controls_pkg/build
+[1.203s] creating /home/srikrishna/motion_planning_project/ros2_ws/src/build/controls_pkg/build/lib
+[1.203s] creating /home/srikrishna/motion_planning_project/ros2_ws/src/build/controls_pkg/build/lib/controls_pkg
+[1.203s] copying controls_pkg/mpc.py -> /home/srikrishna/motion_planning_project/ros2_ws/src/build/controls_pkg/build/lib/controls_pkg
+[1.203s] copying controls_pkg/path_error_logger.py -> /home/srikrishna/motion_planning_project/ros2_ws/src/build/controls_pkg/build/lib/controls_pkg
+[1.205s] copying controls_pkg/pure_pursuit_controller.py -> /home/srikrishna/motion_planning_project/ros2_ws/src/build/controls_pkg/build/lib/controls_pkg
+[1.205s] copying controls_pkg/__init__.py -> /home/srikrishna/motion_planning_project/ros2_ws/src/build/controls_pkg/build/lib/controls_pkg
+[1.206s] copying controls_pkg/path_publisher.py -> /home/srikrishna/motion_planning_project/ros2_ws/src/build/controls_pkg/build/lib/controls_pkg
+[1.206s] copying controls_pkg/stanley_controller.py -> /home/srikrishna/motion_planning_project/ros2_ws/src/build/controls_pkg/build/lib/controls_pkg
+[1.206s] copying controls_pkg/p_controller.py -> /home/srikrishna/motion_planning_project/ros2_ws/src/build/controls_pkg/build/lib/controls_pkg
+[1.206s] running install
+[1.211s] running install_lib
+[1.223s] creating /home/srikrishna/motion_planning_project/ros2_ws/src/install/controls_pkg/lib/python3.12/site-packages/controls_pkg
+[1.223s] copying /home/srikrishna/motion_planning_project/ros2_ws/src/build/controls_pkg/build/lib/controls_pkg/mpc.py -> /home/srikrishna/motion_planning_project/ros2_ws/src/install/controls_pkg/lib/python3.12/site-packages/controls_pkg
+[1.223s] copying /home/srikrishna/motion_planning_project/ros2_ws/src/build/controls_pkg/build/lib/controls_pkg/path_error_logger.py -> /home/srikrishna/motion_planning_project/ros2_ws/src/install/controls_pkg/lib/python3.12/site-packages/controls_pkg
+[1.224s] copying /home/srikrishna/motion_planning_project/ros2_ws/src/build/controls_pkg/build/lib/controls_pkg/pure_pursuit_controller.py -> /home/srikrishna/motion_planning_project/ros2_ws/src/install/controls_pkg/lib/python3.12/site-packages/controls_pkg
+[1.224s] copying /home/srikrishna/motion_planning_project/ros2_ws/src/build/controls_pkg/build/lib/controls_pkg/__init__.py -> /home/srikrishna/motion_planning_project/ros2_ws/src/install/controls_pkg/lib/python3.12/site-packages/controls_pkg
+[1.224s] copying /home/srikrishna/motion_planning_project/ros2_ws/src/build/controls_pkg/build/lib/controls_pkg/path_publisher.py -> /home/srikrishna/motion_planning_project/ros2_ws/src/install/controls_pkg/lib/python3.12/site-packages/controls_pkg
+[1.224s] copying /home/srikrishna/motion_planning_project/ros2_ws/src/build/controls_pkg/build/lib/controls_pkg/stanley_controller.py -> /home/srikrishna/motion_planning_project/ros2_ws/src/install/controls_pkg/lib/python3.12/site-packages/controls_pkg
+[1.224s] copying /home/srikrishna/motion_planning_project/ros2_ws/src/build/controls_pkg/build/lib/controls_pkg/p_controller.py -> /home/srikrishna/motion_planning_project/ros2_ws/src/install/controls_pkg/lib/python3.12/site-packages/controls_pkg
+[1.224s] byte-compiling /home/srikrishna/motion_planning_project/ros2_ws/src/install/controls_pkg/lib/python3.12/site-packages/controls_pkg/mpc.py to mpc.cpython-312.pyc
+[1.226s] byte-compiling /home/srikrishna/motion_planning_project/ros2_ws/src/install/controls_pkg/lib/python3.12/site-packages/controls_pkg/path_error_logger.py to path_error_logger.cpython-312.pyc
+[1.227s] byte-compiling /home/srikrishna/motion_planning_project/ros2_ws/src/install/controls_pkg/lib/python3.12/site-packages/controls_pkg/pure_pursuit_controller.py to pure_pursuit_controller.cpython-312.pyc
+[1.227s] byte-compiling /home/srikrishna/motion_planning_project/ros2_ws/src/install/controls_pkg/lib/python3.12/site-packages/controls_pkg/__init__.py to __init__.cpython-312.pyc
+[1.228s] byte-compiling /home/srikrishna/motion_planning_project/ros2_ws/src/install/controls_pkg/lib/python3.12/site-packages/controls_pkg/path_publisher.py to path_publisher.cpython-312.pyc
+[1.228s] byte-compiling /home/srikrishna/motion_planning_project/ros2_ws/src/install/controls_pkg/lib/python3.12/site-packages/controls_pkg/stanley_controller.py to stanley_controller.cpython-312.pyc
+[1.229s] byte-compiling /home/srikrishna/motion_planning_project/ros2_ws/src/install/controls_pkg/lib/python3.12/site-packages/controls_pkg/p_controller.py to p_controller.cpython-312.pyc
+[1.230s] running install_data
+[1.230s] creating /home/srikrishna/motion_planning_project/ros2_ws/src/install/controls_pkg/share/ament_index
+[1.231s] creating /home/srikrishna/motion_planning_project/ros2_ws/src/install/controls_pkg/share/ament_index/resource_index
+[1.231s] creating /home/srikrishna/motion_planning_project/ros2_ws/src/install/controls_pkg/share/ament_index/resource_index/packages
+[1.232s] copying resource/controls_pkg -> /home/srikrishna/motion_planning_project/ros2_ws/src/install/controls_pkg/share/ament_index/resource_index/packages
+[1.232s] copying package.xml -> /home/srikrishna/motion_planning_project/ros2_ws/src/install/controls_pkg/share/controls_pkg
+[1.232s] creating /home/srikrishna/motion_planning_project/ros2_ws/src/install/controls_pkg/share/controls_pkg/models
+[1.233s] running install_egg_info
+[1.246s] Copying ../build/controls_pkg/controls_pkg.egg-info to /home/srikrishna/motion_planning_project/ros2_ws/src/install/controls_pkg/lib/python3.12/site-packages/controls_pkg-0.0.0-py3.12.egg-info
+[1.247s] running install_scripts
+[1.333s] Installing mpc script to /home/srikrishna/motion_planning_project/ros2_ws/src/install/controls_pkg/lib/controls_pkg
+[1.333s] Installing p_controller script to /home/srikrishna/motion_planning_project/ros2_ws/src/install/controls_pkg/lib/controls_pkg
+[1.333s] Installing path_error_logger script to /home/srikrishna/motion_planning_project/ros2_ws/src/install/controls_pkg/lib/controls_pkg
+[1.334s] Installing path_publisher script to /home/srikrishna/motion_planning_project/ros2_ws/src/install/controls_pkg/lib/controls_pkg
+[1.334s] Installing pure_pursuit_controller script to /home/srikrishna/motion_planning_project/ros2_ws/src/install/controls_pkg/lib/controls_pkg
+[1.334s] Installing rl_controller script to /home/srikrishna/motion_planning_project/ros2_ws/src/install/controls_pkg/lib/controls_pkg
+[1.334s] Installing stanley_controller script to /home/srikrishna/motion_planning_project/ros2_ws/src/install/controls_pkg/lib/controls_pkg
+[1.334s] writing list of installed files to '/home/srikrishna/motion_planning_project/ros2_ws/src/build/controls_pkg/install.log'
+[1.356s] Invoked command in '/home/srikrishna/motion_planning_project/ros2_ws/src/controls_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/srikrishna/motion_planning_project/ros2_ws/src/build/controls_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/srikrishna/motion_planning_project/ros2_ws/src/install/controls_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/controls_pkg build --build-base /home/srikrishna/motion_planning_project/ros2_ws/src/build/controls_pkg/build install --record /home/srikrishna/motion_planning_project/ros2_ws/src/build/controls_pkg/install.log --install-scripts $base/lib/controls_pkg --single-version-externally-managed install_data
