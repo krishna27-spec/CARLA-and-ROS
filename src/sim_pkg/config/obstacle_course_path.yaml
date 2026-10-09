@@ -1,0 +1,17 @@
+# Hand-designed collision-free route through worlds/obstacle_course.world
+# (flat list of x, y pairs). Start (-3.5, -2.5) -> goal (3.5, 2.5).
+# Slalom around three pillars, through the 0.7 m gap in the divider wall at
+# x = 0.5 (y 0.2..0.9), then past two more pillars.
+goal_path_publisher:
+  ros__parameters:
+    waypoints: [
+      -3.5, -2.5,
+      -2.5, -1.2,
+      -1.5, -2.0,
+      -0.5, -1.0,
+       0.0,  0.55,
+       1.0,  0.55,
+       2.0,  0.55,
+       3.0,  0.55,
+       3.5,  2.5,
+    ]
